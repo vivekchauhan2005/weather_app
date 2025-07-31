@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city..." />
+      <button onclick="getWeatherByCity()">Search</button>
+    </div>
+
+    <div class="current-weather" id="currentWeather">
+      <!-- Weather will be injected here -->
+    </div>
+
+    <div class="hourly-forecast" id="hourlyForecast">
+      <!-- Hourly forecast cards -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
